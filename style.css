@@ -1,0 +1,30 @@
+body {
+  background-color: #1e1e1e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
+
+.foto {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 1rem 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.texto {
+  max-width: 600px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 1rem;
+  line-height: 1.5;
+}
